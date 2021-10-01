@@ -23,7 +23,6 @@ Thanks: BluBb_mADe, FichteFoll, stux!, Frechdachs, LittlePox
 """
 
 core = vapoursynth.core
-core.add_cache = False
 imwri = getattr(core, "imwri", getattr(core, "imwrif", None))
 _modes = ["bilinear", "bicubic", "bl-bc", "all"]
 
